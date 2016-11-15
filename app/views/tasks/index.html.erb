@@ -2,8 +2,8 @@
 <p>La liste des taches:</p>
 <ul>
   <% @tasks.each do |task| %>
-  <%=  task.name  %>
-  <%=  task.description  %>
-  <%=  task.done  %>
+  <li><%=  task.name  %></li>
+  <li><%=  task.description  %></li>
+  <li><%=  task.Check  %></li>
   <% end %>
 </ul>

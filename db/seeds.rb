@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-tasks = Task.new([{ name: 'coder' }, { description: 'copie du site AirBnB' }])
+Task.create(name: 'coder', description: 'copie du site AirBnB', Check: false)
 
-tasks = Task.new([{ name: 'devenir riche' }, { description: 'lever des fonds' }])
+Task.create(name: 'devenir riche', description: 'lever des fonds', Check: true)
